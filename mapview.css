@@ -1,0 +1,102 @@
+.maparea {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+}
+
+.chatarea {
+  overflow: auto;
+  position: relative;
+  width: 340px;
+  height: 329px;
+  left: -10px;
+  right: -10px;
+  bottom: 360px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 32px 32px 0px 0px;
+  padding: 10px;
+}
+
+.chatform {
+  display: inline-block;
+}
+
+.profileimg {
+  float: left;
+  margin: 0px 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.yourchat {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(13, 24, 52, 0.2);
+  border-radius: 0px 16px 16px 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  /* or 118% */
+  align-items: center;
+  color: #000000;
+}
+
+.yourchatset {
+  margin-top: 15px;
+}
+
+.mychat {
+  display: flex;
+  float: right;
+  margin-left: 100px;
+  background: rgba(13, 24, 52, 0.7);
+  border-radius: 16px 0px 16px 16px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  margin-top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.chatinput {
+  width: 280px;
+  height: 40px;
+  left: calc(50% - 302px / 2 - 24px);
+  margin-top: 10px;
+  background: #f7f8f9;
+  border: 0.5px solid #d5dde0;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.chatsubmit {
+  width: 30px;
+  height: 30px;
+  left: 315px;
+  top: 393px;
+  border-radius: 50%;
+  background-color: #cd94b3;
+  display: inline-block;
+  margin-left: 5;
+  border:0;
+}
